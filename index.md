@@ -3,7 +3,7 @@ layout: single
 author_profile: true
 ---
 
-![cover image]({{ site.url }}/assets/images/cover.png)
+![cover image](/assets/images/cover.png)
 
 I recently completed my Master's degree in Computer Science from Indian Institute of Technology Patna in 2018. Currently on a sabbatical and interested in pursuing research in the areas of Network Science with a focus on social-media and Deep Learning applications in interdesciplinary domains. 
 
