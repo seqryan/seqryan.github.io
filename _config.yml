@@ -41,8 +41,8 @@ twitter:
 analytics:
   provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          :
-    anonymize_ip         : # true, false (default)
+    tracking_id          : G-XQT213SDPP
+    anonymize_ip         : false # true, false (default)
 
 
 # Site Footer
