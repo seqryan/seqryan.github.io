@@ -23,7 +23,7 @@ subtitle                 : # site tagline that appears below site title in masth
 name                     : "Ryan Sequeira"
 description              : "Ryan's personal website."
 url                      : "https://ryanseq.github.io" 
-baseurl                  : "/seqryan"
+# baseurl                  : "/seqryan"
 repository               : "seqryan/seqryan.github.io" 
 # teaser                   : "/assets/images/04.jpg"
 logo                     : "/assets/images/favicon.svg"
