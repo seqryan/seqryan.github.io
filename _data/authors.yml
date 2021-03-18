@@ -1,0 +1,35 @@
+# /_data/authors.yml
+
+Ryan Sequeira:
+  name        : "Ryan Sequeira"
+  bio         : |+
+                Masters in Computer Science               
+                Indian Institute of Technology Patna
+                
+                Areas of Inerest: Network Science, Deep Learning
+  author: Ryan Sequeira              
+                
+  avatar      : "/assets/images/profile.png"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:ryanseq2016[at]gmail[dot]com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://seqryan.github.io/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/ryan-sequeira-45544b55/"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/ryanlogs"  
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github-square"
+      url: "https://github.com/seqryan"
+    - label: "ORCID"
+      icon: "ai ai-orcid-square ai-fw"
+      url: "https://orcid.org/0000-0001-6935-8527"  
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=w61hEN8AAAAJ"    
+

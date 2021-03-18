@@ -1,0 +1,23 @@
+<div class="publist">
+  <ul>
+    {% for post in site.publications reversed %}
+      {% if post.work-type == 'Paper' %}
+        <li>
+          <a href="{% if post.ref-doi %}http://dx.doi.org/{{ post.ref-doi }}
+            {% else %}{{ post.url | prepend: site.baseurl }}{% endif %}">
+            <h5>{{ post.ref-title }}</h5></a>
+          <p>
+            {{ post.ref-authors }} ({{ post.ref-year }}).
+            <em>{{ post.ref-journal}}</em>
+            {% if post.ref-vol %}, {{ post.ref-vol }}{% endif %}. 
+            {% if post.ref-doi %}
+              <a href="http://dx.doi.org/{{ post.ref-doi }}">
+                doi: {{ post.ref-doi }}
+              </a>
+            {% endif %}
+          </p>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>
