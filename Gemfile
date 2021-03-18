@@ -17,7 +17,7 @@ gem 'webrick'
 gem 'wdm'
 gem 'jekyll'
 gem 'github-pages', group: :jekyll_plugins
-gem "minimal-mistakes-jekyll"
+gem "minimal-mistakes-jekyll", :github => "mmistakes/minimal-mistakes"
 
 # The following plugins are automatically loaded by the theme-gem:
 #   gem "jekyll-paginate"
