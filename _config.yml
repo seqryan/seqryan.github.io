@@ -22,7 +22,7 @@ title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Ryan Sequeira"
 description              : "Ryan's personal website."
-url                      : "https://ryanseq.github.io" 
+url                      : "https://seqryan.github.io" 
 # baseurl                  : "/seqryan"
 repository               : "seqryan/seqryan.github.io" 
 # teaser                   : "/assets/images/04.jpg"
