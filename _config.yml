@@ -38,11 +38,11 @@ twitter:
 
 
 # Analytics
-analytics:
-  provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
-  google:
-    tracking_id          : G-XQT213SDPP
-    anonymize_ip         : false # true, false (default)
+# analytics:
+#   provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
+#   google:
+#     tracking_id          : G-XQT213SDPP
+#     anonymize_ip         : false # true, false (default)
 
 
 # Site Footer
