@@ -43,16 +43,24 @@ import re
 #     } 
 # }
 
+
 publist = {
     "journal":{
-        "file": "proceedings.bib",
+        "file": "journal_proceedings.bib",
         "venuekey" : "journal",
         "venue-pretext" : "",
         "collection" : {"name":"publications",
                         "permalink":"/publication/"}
+    },
+    "proceeding": {
+        "file" : "conference_proceedings.bib",
+        "venuekey": "booktitle",
+        "venue-pretext": "In the proceedings of ",
+        "collection" : {"name":"publications",
+                        "permalink":"/publication/"}
+        
     } 
 }
-
 
 
 html_escape_table = {
@@ -67,6 +75,7 @@ def html_escape(text):
 
 
 for pubsource in publist:
+    print(pubsource)
     parser = bibtex.Parser()
     bibdata = parser.parse_file(publist[pubsource]["file"])
 
