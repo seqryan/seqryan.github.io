@@ -20,3 +20,4 @@ I completed my B.E in Information Technology from Savitribai Phule Pune Universi
 #### Additional Resources
 - [CV](/assets/documents/Ryan_CV.pdf)
 - [Master's Thesis](/assets/documents/Ryan_Masters_Thesis.pdf)
+- [Work Samples](/assets/documents/Sample_Of_Work.pdf)
